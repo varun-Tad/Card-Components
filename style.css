@@ -10,6 +10,11 @@ body{
     background-color: #e3e5e8;
 }
 
+#heading{
+    text-align: center;
+    margin-top:30px;
+}
+
 
 /* BASIC CARD */
 
@@ -27,10 +32,6 @@ body{
 
 
 
-#heading{
-    text-align: center;
-    margin-top:30px;
-}
 
 
 #basic-card-image > img{
