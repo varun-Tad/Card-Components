@@ -1,0 +1,171 @@
+*{
+	margin: 0;
+	padding: 0;
+	border: 0;
+	box-sizing: border-box
+}
+
+body{
+    font-family: sans-serif;
+    background-color: #e3e5e8;
+}
+
+
+/* BASIC CARD */
+
+
+#basic-card{
+  position:relative;
+  left:550px;
+  top:100px;
+  height:450px;
+  width:350px;
+  background-color: white;
+  border-radius: 0.5rem;
+  
+}
+
+
+
+#heading{
+    text-align: center;
+    margin-top:30px;
+}
+
+
+#basic-card-image > img{
+  height:250px;
+  width:350px;
+  border-top-left-radius: 0.5rem;
+  border-top-right-radius: 0.5rem;
+} 
+
+
+#basic-card-header{
+    margin-left:20px;
+    margin-top:15px;
+}
+
+#basic-card-header p{
+    margin-top: 10px;
+    color:#d1cdcd;
+}
+
+
+#basic-card-content{
+    margin-top:20px;
+    margin-bottom: 20px;
+    padding-left: 1px;
+    color:#d1cdcd;
+   
+}
+
+
+#basic-card-footer{
+    display:flex;
+    justify-content:space-around;
+    cursor: pointer;
+    
+}
+
+
+#basic-card-footer p{
+    color:#6200ee;
+    
+}
+
+#basic-card-footer p:hover{
+
+    padding:5px;
+    background-color: rgba(98, 0, 238, 0.1);
+}
+
+
+#basic-card-footer i:hover{
+
+    padding:10px;
+    background-color: rgba(227, 229, 232, 0.7);
+    border-radius: 50%;
+}
+
+
+#basic-card-content-container{
+    padding-left:20px;
+}
+
+
+
+
+
+/* HORIZONTAL IMAGE AND TEXT */
+
+
+#horizontal-card{
+
+    position: relative;
+    left:550px;
+    top:300px;
+    background-color: white;
+    width:350px;
+    margin-bottom: 500px;
+    border-radius: 0.5rem;
+    padding-bottom:20px;
+}
+
+
+
+#image-and-header
+{
+    display: flex;
+    justify-content:space-between;
+}
+
+#image-and-header img{
+
+    height: 100px;
+    width:100px;
+    border-top-left-radius: 0.5rem;
+
+}
+
+#header{
+   margin-top:30px;
+   margin-right:40px;
+}
+
+
+#header p{
+    margin-top: 10px;
+    color:#d1cdcd;
+}
+
+#horizontal-card-footer{
+    display:flex;
+    justify-content:space-around;
+    cursor: pointer;
+    margin-top:20px;
+    
+}
+
+
+
+#horizontal-card-footer p{
+    color:#6200ee;
+}
+
+
+
+#horizontal-card-footer p:hover{
+
+    padding:5px;
+    background-color: rgba(98, 0, 238, 0.1);
+
+}
+
+
+#horizontal-card-footer i:hover{
+
+    padding:10px;
+    background-color: rgba(227, 229, 232, 0.7);
+    border-radius: 50%;
+}
